@@ -1,0 +1,100 @@
+.pricing {
+  padding: 96px 0;
+}
+.pricing-top {
+  margin-bottom: 96px;
+}
+.pricing-top__link {
+  display: inline-block;
+  margin: 0 0 12px 0;
+  text-decoration: none;
+  color: rgb(127, 86, 217);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.pricing-top__title {
+  color: #101828;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -2%;
+  margin: 0 0 24px 0;
+}
+.pricing-top__subtitle {
+  color: rgb(71, 84, 103);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* Ниэний блок */
+.pricing-bottom {
+}
+.pricing-bottom__card {
+}
+.card-inner {
+  width: 384px;
+  box-sizing: border-box;
+  border: 1px solid rgb(208, 213, 221);
+  border-radius: 12px;
+  padding: 40px 32px 32px 32px;
+  box-shadow: 0px 2px 4px -2px rgba(16, 24, 40, 0.06),
+    0px 4px 8px -2px rgba(16, 24, 40, 0.1);
+  text-align: center;
+  transition: all 1s, background-color 2s 500ms;
+}
+.card-inner:hover {
+  background-color: darkorange;
+  scale: 1.1;
+}
+.card-inner_price {
+  color: rgb(16, 24, 40);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -2%;
+  margin-bottom: 16px;
+}
+.card-inner_title {
+  color: rgb(16, 24, 40);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  margin-bottom: 4px;
+}
+.card-inner_subtitle {
+  color: rgb(102, 112, 133);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  margin-bottom: 32px;
+}
+.card-inner_list {
+  color: rgb(102, 112, 133);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  list-style: none;
+  padding-left: 0;
+}
+.card-inner_list ul {
+}
+.card-inner_list li {
+  vertical-align: middle;
+  margin-bottom: 16px;
+}
+.card-inner_list li::before {
+  content: url("../../../assets/pricing/pricing-icon.svg");
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 12px;
+}
+.card-inner_list li:last-child {
+  margin-bottom: 40px;
+}
+.card-inner button {
+  width: 100%;
+}
