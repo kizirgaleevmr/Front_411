@@ -9,10 +9,15 @@ button {
   margin: 0;
   box-sizing: border-box;
   cursor: pointer;
-  color: rgb(255, 255, 255);
+
   min-height: 34px;
   padding: 8px 40 px;
   border-radius: 8px;
   max-height: 48px;
+}
+
+.btn-pramiry {
   background-color: #1570ef;
+  color: rgb(255, 255, 255);
+  transition: all 0.8s;
 }

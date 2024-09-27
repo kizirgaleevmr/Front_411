@@ -1,84 +1,82 @@
 /* Блок с приумеществами */
 
-.features{
-    padding: 96px 0;
+.features {
+  padding: 96px 0;
 }
 
 /* Верхний блок */
-.features-top{
-    /* padding: 0 32px;  Отключил т.к. ширина контента стоновиться 1152
+.features-top {
+  /* padding: 0 32px;  Отключил т.к. ширина контента стоновиться 1152
         Применил это свойство .container
-    */ 
+    */
+  margin-bottom: 64px;
 }
 
-.features-top__link{
-    display: block; 
-    margin-bottom: 12px;
-    color: #6941C6;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
-    text-decoration: none;
+.features-top__link {
+  display: block;
+  margin-bottom: 12px;
+  color: #6941c6;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: none;
 }
 
-.features-top__title{
-    margin-bottom: 20px;
-    color: #101828;
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 44px;
-    letter-spacing: -2%;
+.features-top__title {
+  margin-bottom: 20px;
+  color: #101828;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -2%;
 }
-.features-top__subtitle{
-    color: #667085;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    font-style: ;
+.features-top__subtitle {
+  color: #667085;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  font-style: ;
 }
-
-
 
 /* нижней блок */
 
-.features-bottom{
-    /* padding: 0 32px; Отключил т.к. ширина контента стоновиться 1152
+.features-bottom {
+  /* padding: 0 32px; Отключил т.к. ширина контента стоновиться 1152
         Применил это свойство .container
-    */ 
+    */
 }
 /* Левый блок */
-.left{
-width: 50%;
-} 
-.card{
-    max-width: 264px;
-    text-align: center;
-    margin-bottom: 64px;
+.left {
+  width: 50%;
 }
-.left .card span{
-    color: #7F56D9;
-    font-size: 60px;
-    font-weight: 600;
-    line-height: 72px;
-    letter-spacing: -2%;
-    margin-bottom: 12px;
+.card {
+  max-width: 264px;
+  text-align: center;
+  margin-bottom: 64px;
 }
-.left .card h3{
-    color: #101828;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 28px;
-    margin-bottom: 8px;
+.left .card span {
+  color: #7f56d9;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -2%;
+  margin-bottom: 12px;
 }
-.left .card p{
-    color: #667085;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-
+.left .card h3 {
+  color: #101828;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 8px;
+}
+.left .card p {
+  color: #667085;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 /* Правый блок */
-.right{
+.right {
   /* width: 50%;   */
-} 
+}
